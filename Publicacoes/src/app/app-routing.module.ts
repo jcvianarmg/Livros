@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AutoresComponent } from './autores/autores.component';
-import { LivrosComponent } from './livros/livros.component';
+import { AutoresComponent } from './autor/autores.component';
+import { LivrosComponent } from './livro/livros.component';
 import { AssuntoComponent } from './assunto/assunto.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { PerfilComponent } from './perfil/perfil.component';
