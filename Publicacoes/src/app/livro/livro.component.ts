@@ -1,15 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-livros',
-  templateUrl: './livros.component.html',
-  styleUrls: ['./livros.component.css']
+  selector: 'app-livro',
+  templateUrl: './livro.component.html',
+  styleUrls: ['./livro.component.css']
 })
-export class LivrosComponent {
+export class LivroComponent {
 
-  titulo ='Livros';
+  titulo ='Livro';
 
-   public livros = [
+   public livro = [
     {nome: 'Mentes Extraordinárias'},
     {nome: 'Quem pensa enriquece'},
     {nome: 'As armas da persuasão 2.0'},

@@ -1,4 +1,6 @@
-<h1>{{titulo}}</h1>
+<!-- <h1>{{titulo}}</h1> -->
+
+<app-titulo [titulo]="titulo"></app-titulo>
 <ul>
     <li *ngFor="let ass of assunto">{{ass.assunto}}</li>   
 </ul>

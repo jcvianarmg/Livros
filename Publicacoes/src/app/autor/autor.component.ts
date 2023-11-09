@@ -1,16 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-autores',
-  templateUrl: './autores.component.html',
-  styleUrls: ['./autores.component.css']
+  selector: 'app-autor',
+  templateUrl: './autor.component.html',
+  styleUrls: ['./autor.component.css']
 })
-export class AutoresComponent implements OnInit {
+export class AutorComponent implements OnInit {
 
 
-  public titulo ='Autores';
+  public titulo ='Autor';
 
-   public autores = [
+   public autor = [
     {nome: 'Alberto Dell’Isola'},
     {nome: 'Napoleon Hill'},
     {nome: 'Robert B. Cialdini e Edmundo Barreiros'},
